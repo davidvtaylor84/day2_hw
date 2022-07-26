@@ -24,8 +24,8 @@ print(num_items)
 #8. Sort the list alphabetically
 print(sorted(stops))
 #9. Reverse the positions of the stops in the list
-stops.reverse()
-print(stops.reverse())
+reverselist = stops.reverse()
+print(reverselist)
 #10 Print out all the stops using a for loop
 for stop in stops:
     print(stop)
