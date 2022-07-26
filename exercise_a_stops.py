@@ -7,11 +7,25 @@ print(stops)
 stops.insert(0, "Glasgow Queen St")
 print(stops)
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
-stops.insert(3, "Polmont")
+stops.insert(4, "Polmont")
+print(stops)
 #4. Print out the index position of "Linlithgow"
+stops.index("Linlithgow")
+print(stops.index("Linlithgow"))
 #5. Remove "Livingston" from the list using its name
+stops.remove("Linlithgow")
+print(stops)
 #6. Delete "Cumbernauld" from the list by index
+stops.pop(2)
+print(stops)
 #7. Print the number of stops there are in the list
+num_items = len(stops)
+print(num_items)
 #8. Sort the list alphabetically
+print(sorted(stops))
 #9. Reverse the positions of the stops in the list
+stops.reverse()
+print(stops.reverse())
 #10 Print out all the stops using a for loop
+for stop in stops:
+    print(stop)
