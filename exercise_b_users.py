@@ -77,6 +77,10 @@ print(smallest_lottery)
 users["Erik"]["home_town"] = "edinburgh"
 print(users)
 # 9. Add a pet dog to Erik called "fluffy"
-users.append["Erik"]["pets"] = [0]["fluffy"]
-print(users)
+# users.append["Erik"]["pets"] = ["name"] 
+# print(users)
+# users.append["Erik"]["pets"] = [0]["fluffy"]
+# print(users)
 # 10. Add another person to the users dictionary
+# users("new user") = "David"
+# print(users)
