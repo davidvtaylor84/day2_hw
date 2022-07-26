@@ -66,13 +66,11 @@ print(users["Avril"]["pets"][0]["species"])
 smallest_lottery = min(users["Erik"]["lottery_numbers"])
 print(smallest_lottery)
 # 6. Return an list of Avril's lottery numbers that are even
-# evenNumbers = lambda(users["Avril"]["lottery_numbers"])
-# print(evenNumbers)
-# can't get this one
+        # can't get this one
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
-# users.append(7)(["Erik"]["lottery_numbers"])
-# print(users)
-# can't get this one
+users.insert(["Erik"] ["lottery_numbers: insert(5, 7)"])
+print(users)
+        # can't get this one
 # 8. Change Erik's hometown to Edinburgh
 users["Erik"]["home_town"] = "edinburgh"
 print(users)
