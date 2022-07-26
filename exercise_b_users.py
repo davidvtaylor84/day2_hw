@@ -68,8 +68,8 @@ print(smallest_lottery)
 # 6. Return an list of Avril's lottery numbers that are even
         # can't get this one
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
-users.insert(["Erik"] ["lottery_numbers: insert(5, 7)"])
-print(users)
+# users.insert(["Erik"] ["lottery_numbers: insert(5, 7)"])
+# print(users)
         # can't get this one
 # 8. Change Erik's hometown to Edinburgh
 users["Erik"]["home_town"] = "edinburgh"
@@ -80,5 +80,7 @@ print(users)
 # users.append["Erik"]["pets"] = [0]["fluffy"]
 # print(users)
 # 10. Add another person to the users dictionary
-# users("new user") = "David"
-# print(users)
+newuser = {
+    "David"
+}
+users.add(newuser)
