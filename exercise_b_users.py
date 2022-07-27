@@ -101,3 +101,15 @@ newuser = {
     "David"
 }
 users.add(newuser)
+# solution below
+# users["ian"] = {
+#     "twitter": "twitter name",
+#     "lottery_numbers": [4,5,6,7,8],
+#     "home_town": "Edinburgh",
+#     "pets": [
+#       {
+#         "name": "Dave",
+#         "species": "dog"
+#       }
+#     ]
+# }
