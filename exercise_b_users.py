@@ -67,26 +67,34 @@ smallest_lottery = min(users["Erik"]["lottery_numbers"])
 print(smallest_lottery)
 # 6. Return an list of Avril's lottery numbers that are even
         # can't get this one
+
+        # #  solution below
+# lottery_numbers = users["Avril"]["lottery_numbers"]
+# even_numbers = []
+# for lottery_number in lottery_numbers:
+#     if lottery_number % 2 == 0:
+#         even_numbers.append(lottery_number)
+# print(even_numbers)
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # users.insert(["Erik"] ["lottery_numbers: insert(5, 7)"])
 # print(users)
         # can't get this one
-        #  solution
-lottery_numbers = users["Avril"]["lottery_numbers"]
-even_numbers = []
-for lottery_number in lottery_numbers:
-    if lottery_number % 2 == 0:
-        even_numbers.append(lottery_number)
-# 8. Change Erik's hometown to Edinburgh
+
+        # solution
+# users["Erik"]["lottery_numbers"].append(7)
+
+# 8. Change Erik's hometown to Edinburgh        
 users["Erik"]["home_town"] = "edinburgh"
 print(users)
+
 # 9. Add a pet dog to Erik called "fluffy"
 # users.append["Erik"]["pets"] = ["name"] 
 # print(users)
 # users.append["Erik"]["pets"] = [0]["fluffy"]
 # print(users)
-# solution
-users["Erik"]["pets"].append({ "name": "Fluffy", "species": "dog" })
+# solution below
+# users["Erik"]["pets"].append({ "name": "Fluffy", "species": "dog" })
 
 # 10. Add another person to the users dictionary
 newuser = {
