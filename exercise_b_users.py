@@ -71,6 +71,12 @@ print(smallest_lottery)
 # users.insert(["Erik"] ["lottery_numbers: insert(5, 7)"])
 # print(users)
         # can't get this one
+        #  solution
+lottery_numbers = users["Avril"]["lottery_numbers"]
+even_numbers = []
+for lottery_number in lottery_numbers:
+    if lottery_number % 2 == 0:
+        even_numbers.append(lottery_number)
 # 8. Change Erik's hometown to Edinburgh
 users["Erik"]["home_town"] = "edinburgh"
 print(users)
@@ -79,6 +85,9 @@ print(users)
 # print(users)
 # users.append["Erik"]["pets"] = [0]["fluffy"]
 # print(users)
+# solution
+users["Erik"]["pets"].append({ "name": "Fluffy", "species": "dog" })
+
 # 10. Add another person to the users dictionary
 newuser = {
     "David"
